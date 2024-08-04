@@ -3,7 +3,6 @@ Build multiclass classification model using a custom convolutional neural networ
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Problem Statement]
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
