@@ -20,7 +20,7 @@ The overarching goal is to support the efforts to reduce the death caused by ski
 ### About the dataset used:
 The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
 
-<b><a href=https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuHOYvSpTyxVhCs/view?usp=sharing>Dataset is available here</a>
+Dataset is available here: https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuHOYvSpTyxVhCs/view?usp=sharing
 
 ### The data set contains the following diseases:
 
@@ -34,26 +34,28 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
     8. Squamous cell carcinoma
     9. Vascular lesion
 
+
+
 ### Project Pipeline Steps Involved:
-1. Data Reading/Data Understanding → Defining the path for train and test images 
-2. Dataset Creation→ Create train & validation dataset from the train directory with a batch size of 32. Also, make sure you resize your images to 180*180.
-3. Dataset visualisation → Create a code to visualize one instance of all the nine classes present in the dataset 
-4. Model Building & training : 
+#### 1. Data Reading/Data Understanding → Defining the path for train and test images 
+#### 2. Dataset Creation→ Create train & validation dataset from the train directory with a batch size of 32. Also, make sure you resize your images to 180*180.
+#### 3. Dataset visualisation → Create a code to visualize one instance of all the nine classes present in the dataset 
+#### 4. Model Building & training : 
         Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model, rescale images to normalize pixel values between (0,1).
         Choose an appropriate optimiser and loss function for model training
         Train the model for ~20 epochs
         Write your findings after the model fit. You must check if there is any evidence of model overfit or underfit.
-5. Chose an appropriate data augmentation strategy to resolve underfitting/overfitting 
-6. Model Building & training on the augmented data :
+#### 5. Chose an appropriate data augmentation strategy to resolve underfitting/overfitting 
+#### 6. Model Building & training on the augmented data :
         Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
         Choose an appropriate optimiser and loss function for model training
         Train the model for ~20 epochs
         Write your findings after the model fit, see if the earlier issue is resolved or not?
-7. Class distribution: Examine the current class distribution in the training dataset 
+#### 7. Class distribution: Examine the current class distribution in the training dataset 
         - Which class has the least number of samples?
         - Which classes dominate the data in terms of the proportionate number of samples?
-8. Handling class imbalances: Rectify class imbalances present in the training dataset with Augmentor library.
-9. Model Building & training on the rectified class imbalance data :
+#### 8. Handling class imbalances: Rectify class imbalances present in the training dataset with Augmentor library.
+#### 9. Model Building & training on the rectified class imbalance data :
         Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model, rescale images to normalize pixel values between (0,1).
         Choose an appropriate optimiser and loss function for model training
         Train the model for ~30 epochs
