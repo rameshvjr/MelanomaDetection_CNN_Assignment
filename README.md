@@ -1,4 +1,4 @@
-# Project Name
+# Project Name: Melanoma Detection Assignment
 Build multiclass classification model using a custom convolutional neural network in TensorFlow. 
 
 ## Table of Contents
@@ -34,6 +34,9 @@ Dataset is available here: https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuH
     8. Squamous cell carcinoma
     9. Vascular lesion
 
+<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/deseases.png>
+<p>
+</p><img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/CountofImagesbyDeseases.png>
 
 
 ### Project Pipeline Steps Involved:
@@ -80,11 +83,18 @@ Early Detection: These projects can help improve patient outcomes and survival r
 
 ### Baseline Model
 
-Accuracy and Loss charts for the baseline model
+#### Accuracy and Loss charts for the baseline model as follorw:
+
+<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/BaselineAccuracyLoss_onBaselineModel.png>
 
 ### Augmented Model
 
-Accuracy and Loss charts for the augmented model
+Accuracy and Loss charts for the augmented model as follows:
+<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/PostDataAugmentation.png>
+
+#### With 30 epochs, after rectifying class imbalances using Augmentor library
+Accuracy and Loss charts for the augmented model as follows:
+<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/FinalModelwith30epochs.png>
 
 ### Final Model
 
