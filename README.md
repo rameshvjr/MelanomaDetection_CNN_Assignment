@@ -38,9 +38,9 @@ Dataset is available here: https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuH
     8. Squamous cell carcinoma
     9. Vascular lesion
 
-<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/deseases.png>
+<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/images/deseases.png>
 <p>
-</p><img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/CountofImagesbyDeseases.png>
+</p><img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/images/CountofImagesbyDeseases.png>
 
 <HR hight=500 color=blue>
 
@@ -93,24 +93,24 @@ Early Detection: These projects can help improve patient outcomes and survival r
 
 #### Accuracy and Loss charts for the baseline model as follows:
 
-<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/BaselineAccuracyLoss_onBaselineModel.png>
+<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/images/BaselineAccuracyLoss_onBaselineModel.png>
 
 ### Augmented Model - Accuracy and Loss charts as follows:
 
 Accuracy and Loss charts for the augmented model as follows:
-<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/PostDataAugmentation.png>
+<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/images/PostDataAugmentation.png>
 
 #### With 30 epochs, after rectifying class imbalances - Accuracy and Loss charts as follows:
 
 Accuracy and Loss charts for the augmented model as follows:
-<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/FinalModelwith30epochs.png>
+<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/images/FinalModelwith30epochs.png>
 
 ### Final Model with increased epoch to 50 - Accuracy and Loss charts as follows:
 
 Accuracy and Loss charts for the final model with 50 epoch as follows:
 
 
-<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/FinalModelwith50epochs.png>
+<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/images/FinalModelwith50epochs.png>
 
 As the accuracy of the model increases, the loss decreases. The final model has an accuracy of ~79% and a loss of ~0.5. The model is able to predict the class of the lesion with a high accuracy.
 Augmenting the data and countering class imbalance helped in improving the accuracy of the model.
