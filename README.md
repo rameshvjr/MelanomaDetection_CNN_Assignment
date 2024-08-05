@@ -1,5 +1,5 @@
 # Project Name: Melanoma Detection Assignment
-Build multiclass classification model using a custom convolutional neural network in TensorFlow. 
+<b><font color=blue size=3>Build multiclass classification model using a custom convolutional neural network in TensorFlow. </b>
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -7,20 +7,24 @@ Build multiclass classification model using a custom convolutional neural networ
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
+<HR hight=500 color=blue>
 
 ## General Information
 
 ### Problem Statement:
 To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
-### Main Objective of the project
+### Main Objective of the project:
 The overarching goal is to support the efforts to reduce the death caused by skin cancer. The primary motivation that drives the project is to use the advanced image classification technology for the well-being of the people. Computer vision has made good progress in machine learning and deep learning that are scalable across domains.
 
+<HR hight=500 color=blue>
 
 ### About the dataset used:
 The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
 
 Dataset is available here: https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuHOYvSpTyxVhCs/view?usp=sharing
+
+<HR hight=500 color=blue>
 
 ### The data set contains the following diseases:
 
@@ -38,6 +42,7 @@ Dataset is available here: https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuH
 <p>
 </p><img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/CountofImagesbyDeseases.png>
 
+<HR hight=500 color=blue>
 
 ### Project Pipeline Steps Involved:
 #### 1. Data Reading/Data Understanding → Defining the path for train and test images 
@@ -64,7 +69,9 @@ Dataset is available here: https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuH
         Train the model for ~30 epochs
         Write your findings after the model fit, see if the issues are resolved or not?
 
-### Key Components
+<HR hight=500 color=blue>
+
+### Key Components:
 #### Data Collection: 
 Projects often use datasets from collaborations like the International Skin Imaging Collaboration (ISIC), which provides a large archive of skin images1.
 #### Model Training: 
@@ -72,37 +79,43 @@ The collected images are used to train deep learning models. Data augmentation s
 #### Evaluation: 
 The models are evaluated on their ability to accurately classify images as melanoma or non-melanoma. Metrics like accuracy, sensitivity, and specificity are used to measure performance2.
 
-### Benefits
+### Benefits:
 #### Efficiency: 
 Model can process images quickly, reducing the workload of dermatologists.
 Accuracy: Model can potentially increase the accuracy and consistency of melanoma diagnoses.
 Early Detection: These projects can help improve patient outcomes and survival rates.
 
+<HR hight=500 color=blue>
 
 ## Conclusions
 
-### Baseline Model
+### Baseline Model:
 
-#### Accuracy and Loss charts for the baseline model as follorw:
+#### Accuracy and Loss charts for the baseline model as follows:
 
 <img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/BaselineAccuracyLoss_onBaselineModel.png>
 
-### Augmented Model
+### Augmented Model - Accuracy and Loss charts as follows:
 
 Accuracy and Loss charts for the augmented model as follows:
 <img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/PostDataAugmentation.png>
 
-#### With 30 epochs, after rectifying class imbalances using Augmentor library
+#### With 30 epochs, after rectifying class imbalances - Accuracy and Loss charts as follows:
+
 Accuracy and Loss charts for the augmented model as follows:
 <img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/FinalModelwith30epochs.png>
 
-### Final Model
+### Final Model with increased epoch to 50 - Accuracy and Loss charts as follows:
 
-Accuracy and Loss charts for the final model
+Accuracy and Loss charts for the final model with 50 epoch as follows:
+
+
+<img src=https://github.com/rameshvjr/MelanomaDetection_CNN_Assignment/blob/main/FinalModelwith50epochs.png>
 
 As the accuracy of the model increases, the loss decreases. The final model has an accuracy of ~79% and a loss of ~0.5. The model is able to predict the class of the lesion with a high accuracy.
 Augmenting the data and countering class imbalance helped in improving the accuracy of the model.
 
+<HR hight=500 color=blue>
 
 ## Technologies Used
 - Python
@@ -112,11 +125,14 @@ Augmenting the data and countering class imbalance helped in improving the accur
 - Matplotlib
 - NumPy
 
+<HR hight=500 color=blue>
+
 ## Acknowledgements
 - This project was inspired by UpGrade curriculam
 - References: Kaggle, Siva Kumar sir's session, Base line python script by Upgrad, online resources like kaggle, github, towardesdatascience.com, and others 
 - This project is based on UpGrad's Melenoma Detection assignment as part of CNN.
 
+<HR hight=500 color=blue>
 
 ## Contact
 Created by [@rameshvjr] - feel free to contact me!
